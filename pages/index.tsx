@@ -1,11 +1,11 @@
-import Head from './components/head'
+
 import Footer from './components/footer'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <>
-      <Head></Head>
+
       <div className="flex flex-col items-center justify-center mt-5 min-h-screen py-2">
 
 

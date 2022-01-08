@@ -3,9 +3,6 @@ import Link from "next/link";
 export default function table() {
     return (
         <>
-
-
-
             <div className="flex items-center justify-center ">
 
                 <h2 className=" text-blue-600 font-bold text-3xl p-10">
