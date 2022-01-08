@@ -7,9 +7,9 @@ export default function footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Desenvolvido por &copy;{" "}
+        Desenvolvido por &copy;{"   "}
       </a>
-      <h2 className="font-bold text-blue-600">Walter Baleco</h2>
+      <h2 className="font-bold ml-2 text-blue-600">Walter Baleco</h2>
     </footer>
   );
 }

@@ -6,31 +6,31 @@ export default function Home() {
   return (
     <>
 
-      <div className="flex flex-col items-center justify-center mt-5 min-h-screen py-2">
+      <div className="flex flex-col  items-center justify-center mt-5 min-h-screen py-2">
 
 
-        <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-          <h1 className="text-6xl font-bold">
+        <main className="flex flex-col items-center justify-center w-full px-10 text-center">
+          <h1 className="text-6xl font-semibold">
             Frete Referência{' '}
-            <a className="text-blue-600" href="https://nextjs.org">
+            <a className="text-blue-600 font-extrabold" href="https://nextjs.org">
               Baixada Santista
             </a>
           </h1>
-
-          <p className="mt-3 text-2xl">
-            Todos os valores do frete de referência tem como ponto de partida os
-            terminais do porto de Santos, cada operação poderá sofrer alterações
-            no custo final do serviço devido aos adicionais abaixo, caso seja
-            pertinente.{' '}
-            {/* <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
+          <section className="flex flex-col sm:w-full mt-3 ">
+            <p className="text-justify text-2xl">
+              Os valores do frete de referência tem como ponto de partida os
+              terminais do porto de Santos, cada operação poderá sofrer alterações
+              no custo final do serviço devido aos adicionais abaixo, caso seja
+              pertinente.{' '}
+              {/* <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
             pages/index.tsx
           </code> */}
-          </p>
-
-          <div className="flex flex-wrap items-center justify-around  mt-6 sm:w-full">
+            </p>
+          </section>
+          <div className="flex w-full flex-wrap items-center justify-around  mt-6 sm:w-full">
             <section
 
-              className="p-4 mt-6 text-left border w-56  rounded-xl hover:text-purple-600  border-b-4 border-purple-500 focus:text-blue-600"
+              className="p-4 w-full mt-6 text-left border lg:w-56  rounded-xl hover:text-purple-600  border-b-4 border-purple-500 focus:text-blue-600"
             >
               <h3 className="text-lg text-center font-bold">DTA</h3>
               <h3 className="mt-4 text-center  text-2xl">
@@ -40,7 +40,7 @@ export default function Home() {
 
             <section
 
-              className="p-4 mt-6 text-left border w-56 rounded-xl hover:text-amber-600  border-b-4 border-amber-500 focus:text-blue-600"
+              className="p-4 w-full mt-6 text-left border lg:w-56 rounded-xl hover:text-amber-600  border-b-4 border-amber-500 focus:text-blue-600"
             >
               <h3 className="text-lg text-center font-bold">Químico</h3>
               <h3 className="mt-4 text-center text-2xl">
@@ -50,7 +50,7 @@ export default function Home() {
 
             <section
 
-              className="p-4 mt-6 text-left border w-56 rounded-xl hover:text-green-600  border-b-4 border-green-500 focus:text-blue-600"
+              className="w-full p-4 mt-6 text-left border lg:w-56 rounded-xl hover:text-green-600  border-b-4 border-green-500 focus:text-blue-600"
             >
               <h3 className="text-lg text-center font-bold">Margem Guarujá</h3>
               <h3 className="mt-4 text-center text-2xl">
@@ -60,7 +60,7 @@ export default function Home() {
 
             <section
 
-              className="p-4 mt-6 text-left border w-56 rounded-xl hover:text-pink-600  border-b-4 border-pink-500 focus:text-blue-600"
+              className="w-full p-4 mt-6 text-left border lg:w-56 rounded-xl hover:text-pink-600  border-b-4 border-pink-500 focus:text-blue-600"
             >
               <h3 className="text-lg text-center font-bold">Margem Cubatão</h3>
               <h3 className="mt-4 text-center text-2xl">
@@ -68,7 +68,7 @@ export default function Home() {
               </h3>
             </section>
             <section
-              className="p-4 mt-6 text-left border w-56 rounded-xl hover:text-blue-600  border-b-4 border-blue-500 focus:text-blue-600"
+              className="w-full p-4 mt-6 text-left border lg:w-56 rounded-xl hover:text-blue-600  border-b-4 border-blue-500 focus:text-blue-600"
             >
               <h3 className="text-lg text-center font-bold">Margem São Vicente</h3>
               <h3 className="mt-4 text-center text-2xl">
