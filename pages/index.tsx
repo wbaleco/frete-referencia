@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
 
-      <div className="flex container mx-auto flex-col  items-center justify-center  min-h-screen py-2">
-        <div className="mt-10">
+      <div className="flex container mx-auto flex-col min-h-screen ">
+        <div className="mt-10 text-center">
           <h1 className="text-6xl font-semibold">
             Frete Referência{' '}
-            <a className="text-blue-600 font-extrabold">
+            <h2 className="text-blue-600 font-extrabold">
               Baixada Santista
-            </a>
+            </h2>
           </h1>
         </div>
 
@@ -79,12 +79,12 @@ export default function Home() {
         </div>
         <div className="container  flex mx-auto flex-wrap">
           <div className="lg:w-full md:w-1/2 w-full mt-2 mb-2">
-            <div className="p-8 rounded-xl border-4 border-gray-200">
-              <h4 className="mb-2 text-lg font-semibold text-gray-600">
+            <div className="p-2 rounded-xl border-4 border-gray-200">
+              <h4 className="mb-2 p-4 text-lg font-semibold text-gray-600">
                 {" "}
                 Forma de pagamento vale pedágio{" "}
               </h4>
-              <p className="text-lg leading-8">
+              <p className="text-lg p-4 text-justify leading-8">
                 {" "}
                 O Vale-Pedágio obrigatório, instituído pela Lei nº 10.209, de 23
                 de março de 2001, Por este dispositivo legal, os embarcadores ou
@@ -100,9 +100,9 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:w-full md:w-1/2 w-full mt-2 mb-2">
-            <div className="p-8 rounded-xl border-4 border-gray-200">
-              <h4 className="mb-2 text-lg font-semibold text-gray-600"> Estadia </h4>
-              <p className="text-lg leading-8">
+            <div className="p-4 rounded-xl border-4 border-gray-200">
+              <h4 className="mb-2 p-4 text-lg font-semibold text-gray-600"> Estadia </h4>
+              <p className="text-lg  p-4 text-justify leading-8">
                 {" "}
                 A Agência Nacional de Transportes Terrestres (ANTT) atualizou os
                 valores do pagamento do tempo adicional de carga e descarga de
@@ -122,42 +122,50 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex container mx-auto flex-wrap">
+        <div className="flex lg:w-full flex-col container mx-auto flex-wrap">
 
-          <div className="md:w-1/2 w-full  mr-2">
-            <div className="p-4 rounded-xl border-4 border-gray-200">
-              <h4 className="mb-2 text-lg font-semibold text-gray-600">
-                {" "}
-                Regra de reajuste do frete{" "}
-              </h4>
-              <p className="text-lg leading-8">
-                {" "}
-                O reajuste dos valores de referência ocorrerão sempre que o diesel
-                aumentar igual ou superior a 10%{" "}
-              </p>
-            </div>
+
+          <div className="p-4 mb-2 rounded-xl border-4 border-gray-200">
+            <h4 className="mb-2 text-lg font-semibold text-gray-600">
+              {" "}
+              Regra de reajuste do frete{" "}
+            </h4>
+            <p className="text-lg leading-8">
+              {" "}
+              O reajuste dos valores de referência ocorrerão sempre que o diesel
+              aumentar igual ou superior a 10%{" "}
+            </p>
+
           </div>
 
-          <div className=" lg:w-96 md:w-1/2 w-full ">
-            <div className="p-4 rounded-xl border-4 border-gray-200">
-              <h4 className="mb-2 text-lg text-gray-600 font-semibold"> Como calcular estadia </h4>
-              <div className="flex container flex-col leading-8">
-                {" "}
-                <div>
-                  <p>Caminhão Trator + Semi-reboque - 27,0 t</p>
-                </div>
-                <div>
-                  <p>Estadia = nhoras x capacidade de carga x R$ 1,90</p>
-                </div>{" "}
-                <div>
-                  <p>Estadia = 1 x 27 x R$ 1,90</p>
-                </div>
-                <div>
-                  <p>Valor da hora = 51,30</p>
-                </div>{" "}
+
+          <div className="p-4 rounded-xl border-4 border-gray-200">
+            <h4 className="mb-2 text-lg text-gray-600 font-semibold"> Como calcular estadia </h4>
+            <div className="flex container flex-col leading-8">
+              {" "}
+              <div>
+                <p>Caminhão Trator + Semi-reboque - 27,0 t</p>
               </div>
+              <div>
+                <p>Estadia = nhoras x capacidade de carga x R$ 1,90</p>
+              </div>{" "}
+              <div>
+                <p>Estadia = 1 x 27 x R$ 1,90</p>
+              </div>
+              <div>
+                <p>Valor da hora = 51,30</p>
+              </div>{" "}
             </div>
           </div>
+
+        </div>
+
+        <div className="mt-10 text-center">
+          <button className="bg-cyan-400 hover:bg-blue-700 mb-10 rounded-full text-white font-bold py-2 px-4 ">
+            <Link href="/table">
+              <a>Visualizar valores de referência</a>
+            </Link>
+          </button>
         </div>
 
 
