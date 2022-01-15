@@ -2,15 +2,15 @@ import Link from "next/link";
 
 export default function table() {
     return (
-        <>
-            <div className="flex items-center justify-center ">
+        <div className="container">
+            <div className="flex container mx-auto text-center">
 
                 <h2 className=" text-blue-600 font-bold text-3xl p-10">
                     Valores de referência
                 </h2>
 
             </div>
-            <div className="w-screen">
+            <div className="flex w-screen">
                 <table className="table-auto w-full  ">
                     <thead className=" bg-gray-200">
                         <tr>
@@ -125,16 +125,16 @@ export default function table() {
                     </tbody>
                 </table>
             </div>
-            <div className="flex items-center justify-center  mt-20  border-t-2 ">
-
-                <button className=" hover:bg-cyan-400 bg-blue-700 mb-10 mt-10 text-white font-bold py-2 px-4 rounded-full">
+            <div className="mt-10 text-center w-full mx-auto">
+                <button className="bg-blue-600  hover:bg-blue-400 mb-10 rounded-full text-white font-bold py-2 px-4 ">
                     <Link href="/">
-                        <a>Visualizar regras</a>
+                        <a>Visualizar Regras</a>
                     </Link>
                 </button>
             </div>
 
-        </>
+
+        </div>
 
 
     )
