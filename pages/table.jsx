@@ -1,12 +1,13 @@
 import Link from "next/link";
+import Footer from "./components/footer"
 
 export default function table() {
     return (
         <>
-            <div className="flex container mx-auto flex-wrap">
-                <div className="mx-auto text-center">
+            <div className="flex flex-1 flex-col container mx-auto">
+                <div className="mx-auto flex sm:text-center">
 
-                    <h2 className=" text-blue-600 font-bold text-3xl p-10">
+                    <h2 className=" text-indigo-500 font-bold text-3xl p-10">
                         Valores de referência
                     </h2>
 
@@ -128,12 +129,16 @@ export default function table() {
                 </div>
             </div>
             <div className="mt-10 text-center w-screen ">
-                <button className="bg-blue-600 py-2 px-6 hover:bg-blue-400 rounded-full text-white font-bold">
-                    <Link href="/">
-                        <a>Visualizar Regras</a>
-                    </Link>
-                </button>
+
+                <Link href="/home">
+                    <a className="text-sm  uppercase max-w-xl mx-auto tracking-widest bg-lime-500 hover:bg-indigo-500 transition duration-500 mb-10 rounded-full text-white font-bold py-2 px-4 ">Visualizar Regras</a>
+                </Link>
+                <Link href="/">
+                    <a className="text-sm  uppercase max-w-xl mx-auto tracking-widest bg-lime-500 hover:bg-indigo-500 transition duration-500 mb-10 rounded-full text-white font-bold py-2 px-4 ml-4 ">Inicio</a>
+                </Link>
+
             </div>
+            <Footer></Footer>
         </>
 
 
