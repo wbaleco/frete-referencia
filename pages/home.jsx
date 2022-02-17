@@ -17,7 +17,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-1 flex-wrap container mx-auto text-justify mt-10  rounded-xl border-2 border-gray-200 drop-shadow-lg">
-                    <p className="text-xl leading-8 text-gray-500  p-10">
+                    <p className="text-xl leading-8 text-slate-800 tracking-wider p-10">
                         O SINDICAM – Sindicato dos Transportadores Rodoviários Autônomos de
                         Bens da Baixada Santista e Vale do Ribeira, com muita satisfação e
                         orgulho dos profissionais dos quais representa, vem formalmente
@@ -80,11 +80,11 @@ export default function Home() {
                 <div className="container  flex mx-auto flex-wrap">
                     <div className="lg:w-full md:w-1/2 w-full mt-2 mb-2">
                         <div className="p-2 rounded-xl border-2 border-gray-200 drop-shadow-lg">
-                            <h4 className="mb-2 p-4 text-lg font-semibold text-gray-600">
+                            <h4 className="mb-2 p-4 text-lg font-semibold text-slate-800">
                                 {" "}
                                 Forma de pagamento vale pedágio{" "}
                             </h4>
-                            <p className="text-lg p-4 text-justify leading-8">
+                            <p className="text-lg p-4 text-justify leading-8 text-slate-800 tracking-wider">
                                 {" "}
                                 O Vale-Pedágio obrigatório, instituído pela Lei nº 10.209, de 23
                                 de março de 2001, Por este dispositivo legal, os embarcadores ou
@@ -101,8 +101,8 @@ export default function Home() {
                     </div>
                     <div className="lg:w-full md:w-1/2 w-full mt-2 mb-2">
                         <div className="p-4 rounded-xl border-2 border-gray-200 drop-shadow-lg">
-                            <h4 className="mb-2 p-4 text-lg font-semibold text-gray-600"> Estadia </h4>
-                            <p className="text-lg  p-4 text-justify leading-8">
+                            <h4 className="mb-2 p-4 text-lg font-semibold text-slate-800"> Estadia </h4>
+                            <p className="text-lg  p-4 text-justify leading-8 text-slate-800 tracking-wider">
                                 {" "}
                                 A Agência Nacional de Transportes Terrestres (ANTT) atualizou os
                                 valores do pagamento do tempo adicional de carga e descarga de
@@ -128,11 +128,11 @@ export default function Home() {
                     <div className="p-4 mb-2 rounded-xl border-2 border-gray-200 drop-shadow-lg
 
 ">
-                        <h4 className="mb-2 text-lg font-semibold text-gray-600">
+                        <h4 className="mb-2 text-lg font-semibold text-slate-800">
                             {" "}
                             Regra de reajuste do frete{" "}
                         </h4>
-                        <p className="text-lg leading-8">
+                        <p className="text-lg leading-8 text-slate-800 tracking-wider">
                             {" "}
                             O reajuste dos valores de referência ocorrerão sempre que o diesel
                             aumentar igual ou superior a 10%{" "}
@@ -142,27 +142,27 @@ export default function Home() {
 
 
                     <div className="p-4 rounded-xl border-2 border-gray-200 drop-shadow-lg">
-                        <h4 className="mb-2 text-lg text-gray-600 font-semibold"> Como calcular estadia </h4>
+                        <h4 className="mb-2 text-lg text-slate-800 font-semibold"> Como calcular estadia </h4>
                         <div className="flex container flex-col leading-8">
                             {" "}
                             <div>
-                                <p>Caminhão Trator + Semi-reboque - 27,0 t</p>
+                                <p className="text-slate-800 tracking-wider">Caminhão Trator + Semi-reboque - 27,0 t</p>
                             </div>
                             <div>
-                                <p>Estadia = nhoras x capacidade de carga x R$ 1,90</p>
+                                <p className="text-slate-800 tracking-wider">Estadia = nhoras x capacidade de carga x R$ 1,90</p>
                             </div>{" "}
                             <div>
-                                <p>Estadia = 1 x 27 x R$ 1,90</p>
+                                <p className="text-slate-800 tracking-wider">Estadia = 1 x 27 x R$ 1,90</p>
                             </div>
                             <div>
-                                <p>Valor da hora = 51,30</p>
+                                <p className="text-slate-800 tracking-wider">Valor da hora = 51,30</p>
                             </div>{" "}
                         </div>
                     </div>
 
                 </div>
 
-                <div className="mt-10 text-center">
+                <div className="flex mt-10 text-center">
 
                     <Link href="/table">
                         <a className="text-sm  uppercase max-w-xl mx-auto tracking-widest bg-lime-500 hover:bg-indigo-500 transition duration-500 mb-10 rounded-full text-white font-bold py-2 px-4 ">Visualizar valores de referência</a>

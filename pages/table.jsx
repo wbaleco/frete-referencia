@@ -4,10 +4,10 @@ import Footer from "./components/footer"
 export default function table() {
     return (
         <>
-            <div className="flex flex-1 flex-col container mx-auto">
-                <div className="mx-auto flex sm:text-center">
+            <div className="flex flex-col min-h-screen container mx-auto">
+                <div className="mx-auto flex">
 
-                    <h2 className=" text-indigo-500 font-bold text-3xl p-10">
+                    <h2 className=" text-indigo-500 font-bold text-3xl p-10 text-center">
                         Valores de referência
                     </h2>
 
