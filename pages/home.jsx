@@ -93,8 +93,8 @@ export default function Home() {
                                 transportador rodoviário. Assim, com esta Lei, elimina-se a
                                 possibilidade de embutir o custo do pedágio no valor do frete
                                 contratado. Fonte:
-                                <a href="https://portal.antt.gov.br/vale-pedagio-obrigatorio">
-                                    https://portal.antt.gov.br/vale-pedagio-obrigatorio
+                                <a className="text-blue-500" href="https://portal.antt.gov.br/vale-pedagio-obrigatorio">
+                                    {" "} https://portal.antt.gov.br/vale-pedagio-obrigatorio
                                 </a>{" "}
                             </p>
                         </div>
@@ -117,6 +117,7 @@ export default function Home() {
                                 abaixo, o valor de R$ 1,78, atualizado em abril de 2020, passa a
                                 ser de R$ 1,90, conforme atualização dada pelo INPC acumulado de
                                 6,93% para o período de 04/2020 a 3/2021.{" "}
+                                Fonte: <a className="text-blue-500" href="https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/antt-atualiza-valor-do-tempo-adicional-de-carga-e-descarga">https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias/antt-atualiza-valor-do-tempo-adicional-de-carga-e-descarga</a>
                             </p>
                         </div>
                     </div>
@@ -162,11 +163,17 @@ export default function Home() {
 
                 </div>
 
-                <div className="flex mt-10 text-center">
+                <div className="mt-10 text-center w-screen">
 
                     <Link href="/table">
                         <a className="text-sm  uppercase max-w-xl mx-auto tracking-widest bg-lime-500 hover:bg-indigo-500 transition duration-500 mb-10 rounded-full text-white font-bold py-2 px-4 ">Visualizar valores de referência</a>
+
                     </Link>
+                    <Link href="/">
+                        <a className="text-sm  uppercase max-w-xl mx-auto tracking-widest bg-lime-500 hover:bg-indigo-500 transition duration-500 mb-10 rounded-full text-white font-bold py-2 px-4 ml-4 ">Inicio</a>
+
+                    </Link>
+
 
                 </div>
 
